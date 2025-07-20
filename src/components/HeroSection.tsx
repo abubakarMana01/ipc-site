@@ -6,25 +6,33 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Button } from "@/components/ui/button";
 
+import heroBanner1 from "@/assets/ipc-heroBanner-1.jpg";
+import heroBanner2 from "@/assets/ipc-heroBanner-2.jpg";
+import heroBanner3 from "@/assets/ipc-heroBanner-3.jpg";
+import heroBanner4 from "@/assets/ipc-heroBanner-4.jpg";
+
 const slides = [
   {
-    bg: "/images/slide1.jpg",
-    titleLines: ["Communications.", "Compliance.", "Community.", "Innovation."],
+    bg: heroBanner1,
+    titleLines: ["Communications.", "Compliance.", "Community."],
     subtitle:
       "Our reliable technology connects global markets, enabling faster, smarter, and more efficient trading operations since 1973.",
     buttonText: "ABOUT US",
     buttonLink: "#about",
   },
   {
-    bg: "/images/slide2.jpg",
-    titleLines: ["Smarter.", "Faster.", "Secure.", "Trading."],
+    bg: heroBanner2,
+    titleLines: [
+      "IPC Systems:",
+      "Facilitating smarter, fasterand more efficient FX trading",
+    ],
     subtitle:
       "IPC powers mission-critical communication and compliance solutions that empower financial institutions worldwide.",
     buttonText: "OUR SOLUTIONS",
     buttonLink: "#solutions",
   },
   {
-    bg: "/images/slide3.jpg",
+    bg: heroBanner3,
     titleLines: ["Global.", "Trusted.", "Connected.", "Compliant."],
     subtitle:
       "For over 50 years, IPC has connected market participants with voice and data networks that meet the demands of finance.",
@@ -32,7 +40,7 @@ const slides = [
     buttonLink: "#discover",
   },
   {
-    bg: "/images/slide4.jpg",
+    bg: heroBanner4,
     titleLines: ["Innovate.", "Integrate.", "Accelerate.", "Succeed."],
     subtitle:
       "Built for the future of finance, IPC solutions provide real-time collaboration and regulatory alignment.",
@@ -60,6 +68,9 @@ const HeroSlider = () => {
             className="w-full h-full bg-cover bg-center flex items-center justify-start"
             style={{
               backgroundImage: `url(${slide.bg})`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
             }}
           >
             {/* Content */}
@@ -73,11 +84,11 @@ const HeroSlider = () => {
                     </Fragment>
                   ))}
                 </h1>
-                <p className="text-white/90 text-lg mb-8 leading-relaxed">
+                <p className="text-white/90 text-lg lg:text-xl mb-8 leading-relaxed">
                   {slide.subtitle}
                 </p>
                 <a href={slide.buttonLink}>
-                  <Button className="text-sm bg-gradient-to-r from-red-500 to-green-500 text-white rounded-full px-6 py-3">
+                  <Button className="text-sm bg-gradient-to-r hover:bg-gradient-to-l from-[#e60091] to-[#082452] text-white rounded-full px-6 py-3">
                     {slide.buttonText}
                   </Button>
                 </a>
