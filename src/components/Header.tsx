@@ -1,7 +1,3 @@
-import { Search, Linkedin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-
 const Header = () => {
 	return (
 		<header className="bg-white">
