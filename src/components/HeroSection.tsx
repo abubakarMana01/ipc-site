@@ -6,44 +6,40 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Button } from "@/components/ui/button";
 
-import heroBanner1 from "@/assets/ipc-heroBanner-1.jpg";
-import heroBanner2 from "@/assets/ipc-heroBanner-2.jpg";
-import heroBanner3 from "@/assets/ipc-heroBanner-3.jpg";
-import heroBanner4 from "@/assets/ipc-heroBanner-4.jpg";
+import InternetConnection from "@/assets/internet-connection.jpeg";
+import BroadBand from "@/assets/broad-band.jpg";
+import WifiInternet from "@/assets/wifi-internet.jpeg";
+import MobileConection from "@/assets/mobile-connection.jpg";
 
 const slides = [
   {
-    bg: heroBanner1,
-    titleLines: ["Communications.", "Compliance.", "Community."],
+    bg: InternetConnection,
+    titleLines: "Internet",
     subtitle:
-      "Our reliable technology connects global markets, enabling faster, smarter, and more efficient trading operations since 1973.",
+      "We has the high speed internet you need to keep you well connected throughout your home.",
     buttonText: "ABOUT US",
     buttonLink: "#about",
   },
   {
-    bg: heroBanner2,
-    titleLines: [
-      "IPC Systems:",
-      "Facilitating smarter, fasterand more efficient FX trading",
-    ],
+    bg: BroadBand,
+    titleLines: "Broadband",
+
     subtitle:
-      "IPC powers mission-critical communication and compliance solutions that empower financial institutions worldwide.",
+      "Access internet service around your home with our routers all over the world",
     buttonText: "OUR SOLUTIONS",
     buttonLink: "#solutions",
   },
   {
-    bg: heroBanner3,
-    titleLines: ["Global.", "Trusted.", "Connected.", "Compliant."],
-    subtitle:
-      "For over 50 years, IPC has connected market participants with voice and data networks that meet the demands of finance.",
+    bg: WifiInternet,
+    titleLines: "WiFi Internet",
+    subtitle: "High-speed Internet access that is always on & fast.",
     buttonText: "DISCOVER",
     buttonLink: "#discover",
   },
   {
-    bg: heroBanner4,
-    titleLines: ["Innovate.", "Integrate.", "Accelerate.", "Succeed."],
-    subtitle:
-      "Built for the future of finance, IPC solutions provide real-time collaboration and regulatory alignment.",
+    bg: MobileConection,
+    titleLines: "Mobile Connection",
+    subtitle: "Use our router to stay online on all your devices.",
     buttonText: "GET STARTED",
     buttonLink: "#start",
   },
@@ -77,12 +73,13 @@ const HeroSlider = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-4 py-20">
               <div className="max-w-2xl">
                 <h1 className="text-white text-3xl font-bold leading-tight mb-6">
-                  {slide.titleLines.map((line, i) => (
+                  {/* {slide.titleLines.map((line, i) => (
                     <Fragment key={i}>
                       {line}
                       <br />
                     </Fragment>
-                  ))}
+                  ))} */}
+                  {slide.titleLines}
                 </h1>
                 <p className="text-white/90 text-lg lg:text-xl mb-8 leading-relaxed">
                   {slide.subtitle}
