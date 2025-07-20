@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-32 h-32">
-                <img src="/ipc-footer-logo.png" alt="IPC" />
+                <img src="/ipc-footer-logo.png" alt="Linkora" />
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                   href="#"
                   className="hover:text-ipc-magenta transition-colors"
                 >
-                  IPC Ethics Hotline
+                  Linkora Ethics Hotline
                 </a>
               </li>
             </ul>

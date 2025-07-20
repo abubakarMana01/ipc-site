@@ -7,7 +7,7 @@ const Header = () => {
 					{/* Logo */}
 					<div className="flex items-center space-x-3">
 						<div className="h-16">
-							<img src="/logo.jpg" alt="IPC" className="h-16" />
+							<img src="/logo.jpg" alt="LINKORA" className="h-16" />
 						</div>
 					</div>
 
@@ -16,10 +16,10 @@ const Header = () => {
 						<div className="max-w-7xl mx-auto px-4">
 							<div className="flex items-center space-x-8 py-4">
 								<a
-									href="#"
+									href="#solutions"
 									className="hover:text-ipc-magenta  focus:text-ipc-magenta transition-colors font-medium"
 								>
-									Home
+									Solutions
 								</a>
 								<a
 									href="#insights"

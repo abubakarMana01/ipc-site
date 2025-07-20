@@ -26,7 +26,7 @@ const TradingSystemsSection = () => {
 					{/* Content */}
 					<div className="text-white" ref={contentRef}>
 						<motion.h2
-							className="text-4xl font-light mb-6"
+							className="text-4xl font-light mb-6 text-[#e60091]"
 							initial={{ x: -150, opacity: 0 }}
 							animate={isInView ? { x: 0, opacity: 1 } : {}}
 							transition={{ duration: 0.8, ease: 'easeOut' }}

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const SolutionsSection = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-16" id="solutions">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
