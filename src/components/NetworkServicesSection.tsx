@@ -24,10 +24,10 @@ const NetworkServicesSection = () => {
           {/* Image animation from top */}
           <motion.div
             className="relative order-2 lg:order-1"
-            initial={{ y: -300, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            viewport={{ once: true }}
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: false }}
           >
             <img
               src={networkImage}
@@ -41,20 +41,20 @@ const NetworkServicesSection = () => {
           <div className="text-white order-1 lg:order-2 space-y-6">
             <motion.h2
               className="text-4xl font-light text-ipc-magenta"
-              initial={{ y: -30, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.2, duration: 0.6, ease: "easeOut" }}
-              viewport={{ once: true }}
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: false }}
             >
               Network Services
             </motion.h2>
 
             <motion.p
               className="text-white/90 text-lg leading-relaxed"
-              initial={{ y: -150, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
-              viewport={{ once: true }}
+              initial={{ x: 150, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: false }}
             >
               Optimize your trading performance with IPC's advanced network
               services, designed to deliver seamless connectivity, ultra-low
@@ -62,9 +62,9 @@ const NetworkServicesSection = () => {
             </motion.p>
 
             <motion.div
-              initial={{ y: -80, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
+              initial={{ x: 150, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
               viewport={{ once: true }}
             >
               <Button
