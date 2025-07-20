@@ -4,7 +4,7 @@ import bankAcqusition from "@/assets/Case-Study-Bank-Acqusition.jpg";
 import bankPapua from "@/assets/Case-Study-Bank-Papua.jpg";
 
 const InsightsSection = () => (
-  <section className="bg-white py-16">
+  <section className="bg-white py-16" id="insights">
     <div className="max-w-7xl mx-auto px-4">
       <h2 className="text-3xl font-light text-ipc-navy mb-4">
         Latest Insights

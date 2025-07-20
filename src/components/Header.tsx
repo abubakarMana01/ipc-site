@@ -10,25 +10,25 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 flex justify-end items-center space-x-6 text-sm">
           <a
             href="#"
-            className="text-ipc-navy hover:text-ipc-magenta transition-colors"
+            className="text-ipc-navy hover:text-ipc-magenta focus:text-ipc-magenta transition-colors"
           >
             IPC Portal
           </a>
           <a
             href="#"
-            className="text-ipc-navy hover:text-ipc-magenta transition-colors"
+            className="text-ipc-navy hover:text-ipc-magenta focus:text-ipc-magenta transition-colors"
           >
             Xchange Portal Login
           </a>
           <a
             href="#"
-            className="text-ipc-navy hover:text-ipc-magenta transition-colors"
+            className="text-ipc-navy hover:text-ipc-magenta focus:text-ipc-magenta transition-colors"
           >
             Contact Us
           </a>
           <a
             href="#"
-            className="text-ipc-navy hover:text-ipc-magenta transition-colors"
+            className="text-ipc-navy hover:text-ipc-magenta focus:text-ipc-magenta transition-colors"
           >
             <Linkedin className="w-4 h-4" />
           </a>
@@ -71,49 +71,55 @@ const Header = () => {
           <div className="flex items-center space-x-8 py-4">
             <a
               href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              className="text-white hover:text-ipc-magenta  focus:text-ipc-magenta transition-colors font-medium"
+            >
+              Home
+            </a>
+            {/* <a
+              href="#"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               Solutions
-            </a>
+            </a> */}
             <a
-              href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              href="#insights"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               IPC Insights
             </a>
-            <a
+            {/* <a
               href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               News & Events
-            </a>
+            </a> */}
             <a
-              href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              href="#about"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               About Us
             </a>
-            <a
+            {/* <a
               href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               Partnerships
             </a>
             <a
               href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               Careers
             </a>
             <a
               href="#"
-              className="text-white hover:text-ipc-magenta transition-colors font-medium"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
             >
               ESG
-            </a>
+            </a> */}
             <a
-              href="#"
-              className="text-ipc-magenta hover:text-white transition-colors font-medium"
+              href="#contact-us"
+              className="text-white hover:text-ipc-magenta focus:text-ipc-magenta  transition-colors font-medium"
             >
               Contact Us
             </a>

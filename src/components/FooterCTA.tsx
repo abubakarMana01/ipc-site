@@ -5,7 +5,10 @@ import gradientBg from "@/assets/gradient-bg.jpg";
 
 const FooterCTA = () => {
   return (
-    <section className="relative bg-gradient-footer overflow-hidden">
+    <section
+      className="relative bg-gradient-footer overflow-hidden"
+      id="contact-us"
+    >
       <div
         className="absolute inset-0 opacity-20"
         style={{

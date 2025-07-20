@@ -10,6 +10,7 @@ const SolutionsSection = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
           className="text-3xl lg:text-4xl font-bold text-ipc-navy mb-4"
+          id="about"
         >
           Discover tailored solutions for your trading needs
         </motion.h2>
