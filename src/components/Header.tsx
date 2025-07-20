@@ -35,7 +35,7 @@ const Header = () => {
 								</a>
 								<a
 									href="#contact-us"
-									className="text-white hover:text-ipc-magenta focus:text-ipc-magenta  transition-colors font-medium"
+									className="text-ipc-magenta focus:text-ipc-magenta  transition-colors font-medium"
 								>
 									Contact Us
 								</a>

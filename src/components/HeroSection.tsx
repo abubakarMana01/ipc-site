@@ -56,7 +56,7 @@ const HeroSlider = () => {
 			pagination={{ clickable: true }}
 			navigation
 			loop
-			className="relative w-full h-[50vh]"
+			className="relative w-full h-[60vh]"
 		>
 			{slides.map((slide, index) => (
 				<SwiperSlide key={index}>
