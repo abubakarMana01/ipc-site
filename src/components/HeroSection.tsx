@@ -10,6 +10,7 @@ import InternetConnection from '@/assets/internet-connection.jpeg';
 import BroadBand from '@/assets/broad-band.jpg';
 import WifiInternet from '@/assets/wifi-internet.jpeg';
 import MobileConection from '@/assets/mobile-connection.jpg';
+import { Link } from 'react-router-dom';
 
 const slides = [
 	{
@@ -17,8 +18,7 @@ const slides = [
 		titleLines: 'Internet',
 		subtitle:
 			'We has the high speed internet you need to keep you well connected throughout your home.',
-		buttonText: 'ABOUT US',
-		buttonLink: '#about',
+		buttonText: 'GET STARTED',
 	},
 	{
 		bg: BroadBand,
@@ -26,22 +26,19 @@ const slides = [
 
 		subtitle:
 			'Access internet service around your home with our routers all over the world',
-		buttonText: 'OUR SOLUTIONS',
-		buttonLink: '#solutions',
+		buttonText: 'GET STARTED',
 	},
 	{
 		bg: WifiInternet,
 		titleLines: 'WiFi Internet',
 		subtitle: 'High-speed Internet access that is always on & fast.',
-		buttonText: 'DISCOVER',
-		buttonLink: '#discover',
+		buttonText: 'GET STARTED',
 	},
 	{
 		bg: MobileConection,
 		titleLines: 'Mobile Connection',
 		subtitle: 'Use our router to stay online on all your devices.',
 		buttonText: 'GET STARTED',
-		buttonLink: '#start',
 	},
 ];
 
@@ -56,7 +53,7 @@ const HeroSlider = () => {
 			pagination={{ clickable: true }}
 			navigation
 			loop
-			className="relative w-full h-[55vh]"
+			className="relative w-full h-[65vh]"
 		>
 			{slides.map((slide, index) => (
 				<SwiperSlide key={index}>
@@ -73,22 +70,17 @@ const HeroSlider = () => {
 						<div className="relative z-10 max-w-7xl mx-auto px-4 py-20">
 							<div className="w-full max-w-4xl">
 								<h1 className="text-white text-3xl lg:text-6xl font-bold leading-tight mb-6">
-									{/* {slide.titleLines.map((line, i) => (
-                    <Fragment key={i}>
-                      {line}
-                      <br />
-                    </Fragment>
-                  ))} */}
 									{slide.titleLines}
 								</h1>
 								<p className="text-white/90 text-lg lg:text-xl mb-8 leading-relaxed">
 									{slide.subtitle}
 								</p>
-								<a href={slide.buttonLink}>
+								<Link to="https://wa.me/+2348100033164" target="_blank">
+									{' '}
 									<Button className="text-sm bg-gradient-to-r hover:bg-gradient-to-l from-[#e60091] to-[#082452] text-white rounded-full px-6 py-3">
 										{slide.buttonText}
 									</Button>
-								</a>
+								</Link>
 							</div>
 						</div>
 

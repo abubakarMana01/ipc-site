@@ -8,8 +8,8 @@ const Footer = () => {
           {/* Logo */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-32 h-32">
-                <img src="/ipc-footer-logo.png" alt="Linkora" />
+              <div className="h-12">
+                <img src="/linkora-logo.png" alt="Linkora" className="h-full" />
               </div>
             </div>
           </div>
