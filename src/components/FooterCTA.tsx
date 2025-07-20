@@ -66,7 +66,7 @@ const FooterCTA = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <Link to="https://wa.me/+2340000000000" target="_blank">
+          <Link to="https://wa.me/+2348100033164" target="_blank">
             <Button
               variant="ipc"
               className="text-sm rounded-full text-white bg-gradient-to-r hover:bg-gradient-to-l from-[#e60091] to-[#082452]"
