@@ -2,6 +2,7 @@ import React from "react";
 import eforexKurtAdams from "@/assets/ipc-eforex-kurt-adams-large.jpg";
 import bankAcqusition from "@/assets/Case-Study-Bank-Acqusition.jpg";
 import bankPapua from "@/assets/Case-Study-Bank-Papua.jpg";
+import { motion } from "framer-motion";
 
 const InsightsSection = () => (
   <section className="bg-white py-16" id="insights">
@@ -11,7 +12,11 @@ const InsightsSection = () => (
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* <!-- Card 1 --> */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2, ease: "easeOut" }}
+        >
           <img
             src={bankPapua}
             alt="Bank Papua Enhances Trading"
@@ -31,10 +36,14 @@ const InsightsSection = () => (
           >
             READ MORE
           </a>
-        </div>
+        </motion.div>
 
         {/* <!-- Card 2 --> */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2, ease: "easeOut", delay: 0.5 }}
+        >
           <img
             src={eforexKurtAdams}
             alt="IPC FX Trading"
@@ -55,10 +64,14 @@ const InsightsSection = () => (
           >
             READ MORE
           </a>
-        </div>
+        </motion.div>
 
         {/* <!-- Card 3 --> */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2, ease: "easeOut", delay: 1 }}
+        >
           <div className="relative">
             <img
               src={bankAcqusition}
@@ -84,7 +97,7 @@ const InsightsSection = () => (
           >
             READ MORE
           </a>
-        </div>
+        </motion.div>
       </div>
     </div>
   </section>
