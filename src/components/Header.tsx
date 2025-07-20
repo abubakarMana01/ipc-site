@@ -11,67 +11,43 @@ const Header = () => {
 					{/* Logo */}
 					<div className="flex items-center space-x-3">
 						<div className="h-16">
-							<img src="/logo.jpg" alt="Linkora" className="h-16" />
+							<img src="/logo.jpg" alt="IPC" className="h-16" />
 						</div>
 					</div>
+
+					{/* Navigation */}
+					<nav>
+						<div className="max-w-7xl mx-auto px-4">
+							<div className="flex items-center space-x-8 py-4">
+								<a
+									href="#"
+									className="hover:text-ipc-magenta  focus:text-ipc-magenta transition-colors font-medium"
+								>
+									Home
+								</a>
+								<a
+									href="#insights"
+									className="hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
+								>
+									IPC Insights
+								</a>
+								<a
+									href="#about"
+									className="hover:text-ipc-magenta focus:text-ipc-magenta transition-colors font-medium"
+								>
+									About Us
+								</a>
+								<a
+									href="#contact-us"
+									className="text-white hover:text-ipc-magenta focus:text-ipc-magenta  transition-colors font-medium"
+								>
+									Contact Us
+								</a>
+							</div>
+						</div>
+					</nav>
 				</div>
 			</div>
-
-			{/* Navigation */}
-			<nav className="bg-ipc-navy">
-				<div className="max-w-7xl mx-auto px-4">
-					<div className="flex items-center space-x-8 py-4">
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							Solutions
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							IPC Insights
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							News & Events
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							About Us
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							Partnerships
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							Careers
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-ipc-magenta transition-colors font-medium"
-						>
-							ESG
-						</a>
-						<a
-							href="#"
-							className="text-ipc-magenta hover:text-white transition-colors font-medium"
-						>
-							Contact Us
-						</a>
-					</div>
-				</div>
-			</nav>
 		</header>
 	);
 };

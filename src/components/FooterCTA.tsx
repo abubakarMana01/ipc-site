@@ -4,17 +4,20 @@ import { motion } from 'framer-motion';
 import gradientBg from '@/assets/gradient-bg.jpg';
 
 const FooterCTA = () => {
-	return (
-		<section className="relative bg-gradient-footer overflow-hidden">
-			<div
-				className="absolute inset-0 opacity-20"
-				style={{
-					backgroundImage: `url(${gradientBg})`,
-					backgroundPosition: 'center',
-					backgroundRepeat: 'no-repeat',
-					backgroundSize: 'cover',
-				}}
-			></div>
+  return (
+    <section
+      className="relative bg-gradient-footer overflow-hidden"
+      id="contact-us"
+    >
+      <div
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: `url(${gradientBg})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      ></div>
 
 			<div className="relative max-w-7xl mx-auto px-4 py-20 text-center">
 				{/* Heading Animation */}
