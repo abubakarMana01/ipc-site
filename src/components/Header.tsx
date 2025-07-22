@@ -25,7 +25,7 @@ const Header = () => {
 			<div className="max-w-7xl mx-auto px-4 pb-6 pt-3">
 				<div className="flex items-center justify-between">
 					<div className="flex items-center space-x-3">
-						<img src="/linkora-logo.png" alt="LINKORA" className="h-12" />
+						<img src="/linkora-logo.jpeg" alt="LINKORA" className="h-16" />
 					</div>
 
 					<nav className="hidden md:flex space-x-10">

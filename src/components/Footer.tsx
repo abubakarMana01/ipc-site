@@ -9,7 +9,7 @@ const Footer = () => {
 					<div className="md:col-span-1">
 						<div className="flex items-center space-x-3 mb-6">
 							<div className="h-12">
-								<img src="/linkora-logo.png" alt="Linkora" className="h-full" />
+								<img src="/linkora-logo.jpeg" alt="Linkora" className="h-full" />
 							</div>
 						</div>
 					</div>
@@ -20,7 +20,8 @@ const Footer = () => {
 						<ul className="space-y-2 text-sm text-white/80">
 							<li>
 								<a
-									href="#"
+									href="https://wa.me/+2348100033164"
+									target='_blank'
 									className="hover:text-ipc-magenta transition-colors"
 								>
 									Contact Us

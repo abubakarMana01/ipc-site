@@ -26,7 +26,7 @@ const ResidentialPlanSection = () => {
 					price="₦18,600"
 					description="Perfect for individuals just getting started."
 					features={[
-						'Up to 12MMbps',
+						'Up to 12Mbps',
 						'No data cap',
 						'Unlimited Downloads',
 						'Unlimited Streaming',
@@ -52,7 +52,7 @@ const ResidentialPlanSection = () => {
 					price="₦32,500"
 					description="Tailored solutions for larger organizations."
 					features={[
-						'Up to 20mbps',
+						'Up to 20Mbps',
 						'No data cap',
 						'Unlimited Downloads',
 						'Unlimited Uploads',
@@ -65,7 +65,7 @@ const ResidentialPlanSection = () => {
 					price="₦45,500"
 					description="Tailored solutions for larger organizations."
 					features={[
-						'Up to 40mbps',
+						'Up to 40Mbps',
 						'No data cap',
 						'Unlimited Downloads',
 						'Unlimited Uploads',

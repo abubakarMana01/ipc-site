@@ -24,7 +24,7 @@ const BusinessPlanSection = () => {
 						price="₦30,500"
 						description=""
 						features={[
-							'Up to 15mbps',
+							'Up to 15Mbps',
 							'No data cap',
 							'Unlimited Downloads',
 							'Unlimited Streaming',
@@ -50,9 +50,9 @@ const BusinessPlanSection = () => {
 						price="₦75,500"
 						description=""
 						features={[
-							'Up to 45mbps',
+							'Up to 45Mbps',
 							'No data cap',
-							'Unlimited Downloads​',
+							'Unlimited Downloads',
 							'Unlimited Uploads',
 							'Unlimited Streaming',
 						]}
