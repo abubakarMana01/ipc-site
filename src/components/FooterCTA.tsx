@@ -28,7 +28,7 @@ const FooterCTA = () => {
 					viewport={{ once: true }}
 					className="text-4xl font-light text-white mb-8"
 				>
-					Take your trading experience to the{' '}
+					Take your Internet experience to the{' '}
 					<span className="text-ipc-magenta font-medium">next level</span>
 				</motion.h2>
 

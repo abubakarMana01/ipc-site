@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import tradingImage from '@/assets/trading-systems.jpg';
 import gradientBg from '@/assets/gradient-bg.jpg';
 
-const TradingSystemsSection = () => {
+const AboutUs = () => {
 	const contentRef = useRef(null);
 	const isInView = useInView(contentRef, { once: false, margin: '-100px' });
 
@@ -27,29 +27,33 @@ const TradingSystemsSection = () => {
 					<div className="text-white" ref={contentRef}>
 						<motion.h2
 							className="text-4xl font-light mb-6 text-[#e60091]"
-							initial={{ x: -150, opacity: 0 }}
-							animate={isInView ? { x: 0, opacity: 1 } : {}}
+							initial={{ y: 70, opacity: 0 }}
+							animate={isInView ? { y: 0, opacity: 1 } : {}}
 							transition={{ duration: 0.8, ease: 'easeOut' }}
 						>
-							Trading Communication Systems
+							About Us
 						</motion.h2>
 
 						{/* Subtext + Button motion wrapper */}
 						<motion.div
-							initial={{ x: -150, opacity: 0 }}
-							animate={isInView ? { x: 0, opacity: 1 } : {}}
-							transition={{ duration: 0.8, ease: 'easeOut' }}
+							initial={{ y: 70, opacity: 0 }}
+							animate={isInView ? { y: 0, opacity: 1 } : {}}
+							transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
 						>
-							<p className="text-white/90 text-lg mb-8 leading-relaxed">
-								Unlock your trading potential with secure, reliable, and
-								efficient communication systems that ensure flawless execution
-								and real-time market access.
+							<p className="text-white/90 text-lg mb-8 leading-[180%]">
+								The Internet Service Provision section of the business offers
+								unlimited internet with no data cap through fiber Broadband or
+								fixed wireless. Serving businesses of all types and residential
+								users, we provide you with a more affordable and secure
+								broadband connection. We are currently deploying
+								Fiber-to-the-Home Internet to several homes, estates, and
+								residential buildings along our catchment areas.
 							</p>
 						</motion.div>
 						<motion.div
-							initial={{ x: -150, opacity: 0 }}
-							animate={isInView ? { x: 0, opacity: 1 } : {}}
-							transition={{ duration: 0.8, ease: 'easeOut' }}
+							initial={{ y: 70, opacity: 0 }}
+							animate={isInView ? { y: 0, opacity: 1 } : {}}
+							transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
 						>
 							<Button
 								variant="ipc"
@@ -80,4 +84,4 @@ const TradingSystemsSection = () => {
 	);
 };
 
-export default TradingSystemsSection;
+export default AboutUs;
