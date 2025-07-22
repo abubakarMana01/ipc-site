@@ -9,7 +9,7 @@ const Footer = () => {
 					<div className="md:col-span-1">
 						<div className="flex items-center space-x-3 mb-6">
 							<div className="h-12">
-								<img src="/linkora-logo.jpeg" alt="Linkora" className="h-full" />
+								<img src="/linkora.svg" alt="Linkora" className="h-16" />
 							</div>
 						</div>
 					</div>
