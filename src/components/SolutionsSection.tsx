@@ -18,7 +18,7 @@ const SolutionsSection = () => {
 				</motion.h2>
 				<div className="w-20 h-1 bg-ipc-magenta mx-auto"></div>
 
-				<div className="flex gap-10 mt-10 justify-center">
+				<div className="flex flex-wrap gap-10 mt-10 justify-center">
 					{SOLUTIONS.map((solution, index) => (
 						<SolutionCard key={solution.title} data={solution} index={index} />
 					))}

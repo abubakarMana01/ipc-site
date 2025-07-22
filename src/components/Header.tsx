@@ -79,29 +79,48 @@ const Header = () => {
 				{isOpen && (
 					<div className="md:hidden mt-4 flex flex-col space-y-4">
 						<a
+							href="/"
+							className="hover:text-ipc-magenta font-medium transition-colors"
+							
+						>
+							Home
+						</a>
+						<a
 							href="#solutions"
 							className="hover:text-ipc-magenta font-medium transition-colors"
+							
 						>
 							Solutions
 						</a>
 						<a
-							href="#insights"
-							className="hover:text-ipc-magenta font-medium transition-colors"
-						>
-							Insights
-						</a>
-						<a
 							href="#about"
 							className="hover:text-ipc-magenta font-medium transition-colors"
+							
 						>
 							About Us
 						</a>
 						<a
-							href="#contact-us"
-							className="text-ipc-magenta font-medium transition-colors"
+							href="#residential-plan"
+							className="hover:text-ipc-magenta font-medium transition-colors"
+							
 						>
-							Contact Us
+							Residential Plan
 						</a>
+						<a
+							href="#business-plan"
+							className="hover:text-ipc-magenta font-medium transition-colors"
+							
+						>
+							Business Plan
+						</a>
+						<a
+							href="#why-linkora"
+							className="text-ipc-magenta font-medium transition-colors"
+							
+						>
+							Why Linkora
+						</a>
+
 					</div>
 				)}
 			</div>
